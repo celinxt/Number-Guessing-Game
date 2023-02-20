@@ -1,4 +1,4 @@
-# Explorer-Projeto-11
+# Number Quiz Game
 Um jogo de adivinhação onde o usuário tenta acertar o número sorteado.
 
 Foi utilizado:
