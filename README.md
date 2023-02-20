@@ -1,4 +1,4 @@
-# Number Quiz Game
+# Number Guessing Game
 Um jogo de adivinhação onde o usuário tenta acertar o número sorteado.
 
 Foi utilizado:
