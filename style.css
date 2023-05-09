@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-d: "DM Sans", sans-serif;
+  --font-m: "Montserrat", sans-serif;
+
+  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow-y: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  margin: 20vh 0 50vh;
+}
+
+main {
+  text-align: center;
+
+  width: 43rem;
+  height: 28rem;
+  padding: 1vh;
+
+  background: #fff;
+  border-radius: 0.6rem;
+}
+
+h2 {
+  font-family: var(--font-m);
+  font-size: 2.4rem;
+
+  margin: 5vh 0 1vh;
+}
+
+.card p {
+  font-family: var(--font-d);
+  font-size: 1.6rem;
+
+  margin: 0 0 5vh;
+}
+
+#input-align {
+  display: flex;
+  justify-content: center;
+}
+
+#input-try {
+  font-family: var(--font-d);
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  width: 5rem;
+  padding-left: 1rem;
+
+  border: none;
+  border-radius: 0.4rem 0 0 0.4rem;
+  background: #dce2e9;
+}
+
+#btn-try {
+  font-family: var(--font-d);
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+
+  padding: 1.6rem;
+
+  border: none;
+  border-radius: 0 0.4rem 0.4rem 0;
+  background: #7879f1;
+}
+
+#btn-try:hover {
+  cursor: pointer;
+  background-color: #5e5ee6;
+}
+
+h3 {
+  font-family: var(--font-d);
+  font-weight: 400;
+  font-size: 2.4rem;
+  padding: 7vh 0 5vh;
+}
+
+button {
+  font-family: var(--font-d);
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+
+  padding: 1.6rem;
+
+  border: none;
+  border-radius: 0.4rem;
+  background: #7879f1;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #5e5ee6;
+}
+
+.hide {
+  display: none;
+}

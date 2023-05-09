@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- prettier-ignore -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+
+    <script src="script.js" defer></script>
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <h2>Jogo da Advinhação</h2>
+        <p>Adivinhe o número entre 0 e 10</p>
+
+        <form action="#">
+          <div id="input-align">
+            <input type="number" id="input-try" min="0" max="10" required />
+            <button id="btn-try">Tentar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card-two hide">
+        <h3>Acertou em 3 tentativas!</h3>
+        <button id="btn-reset">Jogar Novamente</button>
+      </div>
+    </main>
+  </body>
+</html>
